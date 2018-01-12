@@ -1,5 +1,5 @@
 var a, b
-
+// a and b will be asigned a random number
 beforeEach(function() {
   a = Math.floor(Math.random() * 1000)
   b = Math.floor(Math.random() * 1000)
