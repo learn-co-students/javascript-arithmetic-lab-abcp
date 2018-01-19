@@ -10,7 +10,7 @@ it('add(a, b) adds two numbers and returns the result', function() {
 })
 
 it('subtract(a, b) subtracts b from a and returns the result', function() {
-  expect(subtract(a, b)).toEqual(a - b)
+  expect(substract(a, b)).toEqual(a - b)
 })
 
 it('multiply(a, b) multiplies two numbers and returns the result', function() {
