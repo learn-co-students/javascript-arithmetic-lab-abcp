@@ -14,15 +14,15 @@ function multiply(a,b) {
 }
 
 function divide(a,b) {
-  return (a / b)
+  return (a / b);
 }
 
-var number = 10;
-function add5() {
-  console.log(number);
-  number += 5;
+var inc = a++; {
+console.log('8');
+return (a++);
 }
-function subtract3() {
-  console.log(number)
-  number -= 3;
+
+var dec = a--; {
+console.log('8');
+return (a--);
 }
