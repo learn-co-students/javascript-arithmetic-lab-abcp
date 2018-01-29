@@ -1,28 +1,31 @@
-var number = (a,b);
-console.log ('8','5');
-parseInt ('8','5');
-function add(a,b) {
-  return (a + b);
-}
- 
-function subtract(a,b) {
-  return (a - b);
+function add(a, b) {
+  return a + b;
 }
 
-function multiply(a,b) {
-  return (a * b);
+function subtract(a, b) {
+  return a - b;
 }
 
-function divide(a,b) {
-  return (a / b);
+function multiply(a, b) {
+  return a * b;
 }
 
-var inc = a++; {
-console.log('8');
-return (a++);
+function divide(a, b) {
+  return a / b;
 }
 
-var dec = a--; {
-console.log('8');
-return (a--);
+function inc(n) {
+  return n += 1;
+}
+
+function dec(n) {
+  return n -= 1;
+}
+
+function makeInt(n) {
+  return parseInt(n, 10);
+}
+
+function preserveDecimal(n) {
+  return parseFloat(n);
 }
